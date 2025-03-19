@@ -21,12 +21,7 @@ export default function ImageModal({ isOpen, onClose, imgUrl, imgAlt }) {
   console.log("Image URL:", imgUrl);
 
   return (
-    <Modal
-      isOpen={isOpen}
-      onRequestClose={onClose}
-      className={css.modal}
-      //   overlayClassName={css.overlay}
-    >
+    <Modal isOpen={isOpen} onRequestClose={onClose} className={css.modal}>
       <div className={css.modalContent}>
         <img src={imgUrl} alt={imgAlt} className={css.modalImage} />
       </div>

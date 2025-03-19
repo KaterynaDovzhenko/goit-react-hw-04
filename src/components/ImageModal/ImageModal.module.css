@@ -30,8 +30,8 @@
 
 .modalImage {
   max-width: 100%;
-  width: 100%; /* Set width to 100% to ensure it's responsive */
-  height: auto; /* Let the height adjust automatically */
+  width: 70%;
+  height: auto;
   object-fit: contain;
   border-radius: 10px;
 }

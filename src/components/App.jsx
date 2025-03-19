@@ -80,8 +80,8 @@ export default function App() {
       <ImageModal
         isOpen={isModalOpen}
         onClose={closeModal}
-        imageUrl={modalImg.url}
-        imageAlt={modalImg.alt}
+        imgUrl={modalImg.url}
+        imgAlt={modalImg.alt}
       ></ImageModal>
     </div>
   );
